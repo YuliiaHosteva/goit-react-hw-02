@@ -1,0 +1,14 @@
+.navlink {
+    display: flex;
+    gap: 40px;
+}
+
+.navlink a {
+    color: #332c2c;
+}
+
+.navlink a:hover {
+    color: #000;
+    font-weight: bold;
+}
+

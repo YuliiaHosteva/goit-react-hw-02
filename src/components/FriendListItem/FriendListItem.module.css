@@ -1,0 +1,30 @@
+.item {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: scale(1.05); 
+}
+
+.avatar {
+    margin-bottom: 8px;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.status {
+    font-size: 16px;
+}
+
+.isOnline {
+    color: #008002;
+}
+
+.isOffline {
+    color: #ff2600;
+}
